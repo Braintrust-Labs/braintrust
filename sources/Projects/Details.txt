@@ -1,0 +1,228 @@
+//  html File code For Projects Page 
+
+<div class="Projects">
+        <div class="cont">
+          <h3>Last Projects</h3>
+          <div class="papers">
+            <div class="paper">
+              <div class="info">
+                <div class="img">
+                  <img src="../sources/images/dashboard/Project1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Space Is Future</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod amet iure 
+                  placeat quas! Est laudantium autem placeat eum!</p>
+                  <h5>10 Slides</h5>
+                </div>
+              </div>
+
+              <div class="tools">
+                <div class="toggle">
+                  <div class="box">
+                    <input id="Toggle" type="checkbox">
+                    <label for="Toggle"></label>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-pencil"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+            <div class="paper">
+              <div class="info">
+                <div class="img">
+                  <img src="../sources/images/dashboard/Project1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Space Is Future</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod amet iure 
+                  placeat quas! Est laudantium autem placeat eum!</p>
+                  <h5>10 Slides</h5>
+                </div>
+              </div>
+
+              <div class="tools">
+                <div class="toggle">
+                  <div class="box">
+                    <input id="Toggle" type="checkbox">
+                    <label for="Toggle"></label>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-pencil"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+            <div class="paper">
+              <div class="info">
+                <div class="img">
+                  <img src="../sources/images/dashboard/Project1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Space Is Future</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod amet iure 
+                  placeat quas! Est laudantium autem placeat eum!</p>
+                  <h5>10 Slides</h5>
+                </div>
+              </div>
+
+              <div class="tools">
+                <div class="toggle">
+                  <div class="box">
+                    <input id="Toggle" type="checkbox">
+                    <label for="Toggle"></label>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-pencil"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+            <div class="paper">
+              <div class="info">
+                <div class="img">
+                  <img src="../sources/images/dashboard/Project1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Space Is Future</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod amet iure 
+                  placeat quas! Est laudantium autem placeat eum!</p>
+                  <h5>10 Slides</h5>
+                </div>
+              </div>
+
+              <div class="tools">
+                <div class="toggle">
+                  <div class="box">
+                    <input id="Toggle" type="checkbox">
+                    <label for="Toggle"></label>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-pencil"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+            <div class="paper">
+              <div class="info">
+                <div class="img">
+                  <img src="../sources/images/dashboard/Project1.jpg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Space Is Future</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod amet iure 
+                  placeat quas! Est laudantium autem placeat eum!</p>
+                  <h5>10 Slides</h5>
+                </div>
+              </div>
+
+              <div class="tools">
+                <div class="toggle">
+                  <div class="box">
+                    <input id="Toggle" type="checkbox">
+                    <label for="Toggle"></label>
+                  </div>
+                </div>
+                <div class="icons">
+                  <i class="fa-solid fa-pencil"></i>
+                  <i class="fa-solid fa-trash-can"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+//  Css File code For Projects Page 
+
+
+.Projects {
+  padding: 30px;
+  width: 100%;
+}
+.Projects .cont {
+  width: 100%;
+}
+.Projects .cont h3 {
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #6D67E4;
+}
+.Projects .cont .papers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.Projects .cont .papers .paper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: #64646f33 0px 7px 29px 0px;
+  border-radius: 10px;
+  height: 200px;
+}
+.Projects .cont .papers .paper .info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.Projects .cont .papers .paper .info .img {
+  margin: 10px;
+}
+.Projects .cont .papers .paper .info .img img {
+  width: 140px;
+  border-radius: 5px;
+}
+.Projects .cont .papers .paper .info .text  {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.Projects .cont .papers .paper .info .text h4 {
+  font-size: 25px;
+  color: #3F5EFB;
+  font-weight: 800;
+}
+.Projects .cont .papers .paper .info .text p {
+  font-size: 18px;
+  color: #6D67E4;
+  font-weight: 800;
+  opacity: 0.7;
+  max-width: 590px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.Projects .cont .papers .paper .info .text h5 {
+  font-size: 18px;
+  color: #F361AF;
+  font-weight: 900;
+}
+.Projects .cont .papers .paper .tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 80px;
+  padding: 30px;
+}
+.Projects .cont .papers .paper .tools .toggle {
+  
+}
+.Projects .cont .papers .paper .tools .toggle .box {}
+.Projects .cont .papers .paper .tools .toggle .box input {}
+.Projects .cont .papers .paper .tools .toggle .box label {}
+.Projects .cont .papers .paper .tools i {}
